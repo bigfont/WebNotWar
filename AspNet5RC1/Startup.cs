@@ -6,9 +6,7 @@ namespace AspNet5RC1
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env) { }
-
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
             app.Run(async (context) =>
             {
@@ -16,6 +14,6 @@ namespace AspNet5RC1
             });
         }
 
-        public static void Main(string[] args) => WebApplication.Run<Startup>(args);
+        public static void Main(string[] args) => WebApplication.Run(args);
     }
 }

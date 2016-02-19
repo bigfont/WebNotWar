@@ -186,25 +186,6 @@
           "lib/net451/Microsoft.AspNet.Http.Features.dll": {}
         }
       },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        }
-      },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -728,20 +709,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Http.Features.dll": {}
-        }
-      },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "System.Security.Principal.Windows": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
         }
       },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
@@ -1611,29 +1578,6 @@
           "lib/dotnet5.1/System.Security.Principal.dll": {}
         }
       },
-      "System.Security.Principal.Windows/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.0",
-          "System.Diagnostics.Debug": "4.0.10",
-          "System.Reflection": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.0",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Security.Claims": "4.0.0",
-          "System.Security.Principal": "4.0.0",
-          "System.Text.Encoding": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.Security.Principal.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Security.Principal.Windows.dll": {}
-        }
-      },
       "System.Text.Encoding/4.0.11-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -1905,25 +1849,6 @@
         },
         "runtime": {
           "lib/net451/Microsoft.AspNet.Http.Features.dll": {}
-        }
-      },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
         }
       },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
@@ -2468,25 +2393,6 @@
           "lib/net451/Microsoft.AspNet.Http.Features.dll": {}
         }
       },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final"
-        },
-        "frameworkAssemblies": [
-          "Microsoft.CSharp",
-          "mscorlib",
-          "System",
-          "System.Core"
-        ],
-        "compile": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        }
-      },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -3013,20 +2919,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Http.Features.dll": {}
-        }
-      },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "System.Security.Principal.Windows": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
         }
       },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
@@ -4292,29 +4184,6 @@
           "lib/dotnet5.1/System.Security.Principal.dll": {}
         }
       },
-      "System.Security.Principal.Windows/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.0",
-          "System.Diagnostics.Debug": "4.0.10",
-          "System.Reflection": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.0",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Security.Claims": "4.0.0",
-          "System.Security.Principal": "4.0.0",
-          "System.Text.Encoding": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.Security.Principal.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Security.Principal.Windows.dll": {}
-        }
-      },
       "System.Text.Encoding/4.0.11-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -4598,20 +4467,6 @@
         },
         "runtime": {
           "lib/dotnet5.4/Microsoft.AspNet.Http.Features.dll": {}
-        }
-      },
-      "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Http": "1.0.0-rc1-final",
-          "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "System.Security.Principal.Windows": "4.0.0-beta-23516"
-        },
-        "compile": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll": {}
         }
       },
       "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
@@ -5877,29 +5732,6 @@
           "lib/dotnet5.1/System.Security.Principal.dll": {}
         }
       },
-      "System.Security.Principal.Windows/4.0.0-beta-23516": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.0",
-          "System.Diagnostics.Debug": "4.0.10",
-          "System.Reflection": "4.0.10",
-          "System.Resources.ResourceManager": "4.0.0",
-          "System.Runtime": "4.0.20",
-          "System.Runtime.Extensions": "4.0.0",
-          "System.Runtime.Handles": "4.0.0",
-          "System.Runtime.InteropServices": "4.0.20",
-          "System.Security.Claims": "4.0.0",
-          "System.Security.Principal": "4.0.0",
-          "System.Text.Encoding": "4.0.10",
-          "System.Threading": "4.0.10"
-        },
-        "compile": {
-          "ref/dotnet5.4/System.Security.Principal.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Security.Principal.Windows.dll": {}
-        }
-      },
       "System.Text.Encoding/4.0.11-beta-23516": {
         "type": "package",
         "dependencies": {
@@ -6145,19 +5977,6 @@
         "Microsoft.AspNet.Http.Features.1.0.0-rc1-final.nupkg",
         "Microsoft.AspNet.Http.Features.1.0.0-rc1-final.nupkg.sha512",
         "Microsoft.AspNet.Http.Features.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.IISPlatformHandler/1.0.0-rc1-final": {
-      "type": "package",
-      "sha512": "scDY0KQZnOvQTYDd6InIFhn4QnF5UxLtV7VoQXOlpsaEUQ0c6jDVoHvL4ylUy5zcKJkjRDUy/B7Q8TDk05kl2w==",
-      "files": [
-        "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.dll",
-        "lib/dotnet5.4/Microsoft.AspNet.IISPlatformHandler.xml",
-        "lib/net451/Microsoft.AspNet.IISPlatformHandler.dll",
-        "lib/net451/Microsoft.AspNet.IISPlatformHandler.xml",
-        "Microsoft.AspNet.IISPlatformHandler.1.0.0-rc1-final.nupkg",
-        "Microsoft.AspNet.IISPlatformHandler.1.0.0-rc1-final.nupkg.sha512",
-        "Microsoft.AspNet.IISPlatformHandler.nuspec"
       ]
     },
     "Microsoft.AspNet.Server.Kestrel/1.0.0-rc1-final": {
@@ -8796,30 +8615,6 @@
         "System.Security.Principal.nuspec"
       ]
     },
-    "System.Security.Principal.Windows/4.0.0-beta-23516": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "W07W6p5aX5Pnb1rmVLZgpVCoWEjVKC1jzOvtZY/s2YvTf6MdPXKmKtTc1aEeF6Rcz/H6cfUAem0jH78FoCgkuA==",
-      "files": [
-        "lib/DNXCore50/System.Security.Principal.Windows.dll",
-        "lib/net46/System.Security.Principal.Windows.dll",
-        "ref/dotnet5.4/de/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/es/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/fr/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/it/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/ja/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/ko/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/ru/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/System.Security.Principal.Windows.dll",
-        "ref/dotnet5.4/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/zh-hans/System.Security.Principal.Windows.xml",
-        "ref/dotnet5.4/zh-hant/System.Security.Principal.Windows.xml",
-        "ref/net46/System.Security.Principal.Windows.dll",
-        "System.Security.Principal.Windows.4.0.0-beta-23516.nupkg",
-        "System.Security.Principal.Windows.4.0.0-beta-23516.nupkg.sha512",
-        "System.Security.Principal.Windows.nuspec"
-      ]
-    },
     "System.Text.Encoding/4.0.11-beta-23516": {
       "type": "package",
       "serviceable": true,
@@ -9279,7 +9074,6 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.AspNet.IISPlatformHandler >= 1.0.0-rc1-final",
       "Microsoft.AspNet.Server.Kestrel >= 1.0.0-rc1-final"
     ],
     "DNX,Version=v4.5.1": [],
