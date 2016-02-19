@@ -1,6 +1,5 @@
 ﻿{
-  "userSecretsId": "aspnet5-AspNet5RC1-2bdf159a-d276-4a58-9d30-2d56790e4a95",
-  "version": "1.0.0-*",
+   "version": "1.0.0-*",
   "compilationOptions": {
     "emitEntryPoint": true
   },
@@ -11,8 +10,7 @@
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel",
-    "ef": "EntityFramework.Commands"
+    "web": "Microsoft.AspNet.Server.Kestrel"
   },
 
   "frameworks": {
@@ -27,8 +25,5 @@
   "publishExclude": [
     "**.user",
     "**.vspscc"
-  ],
-  "scripts": {
-    "prepublish": [ "npm install", "bower install", "gulp clean", "gulp min" ]
-  }
+  ]
 }
