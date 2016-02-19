@@ -10,8 +10,6 @@ namespace AspNet5RC1
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            // app.UseIISPlatformHandler(options => options.AuthenticationDescriptions.Clear());
-
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("head, body");
