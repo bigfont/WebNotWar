@@ -2,7 +2,7 @@
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 
-namespace AspNet5RC1
+namespace WebNotWar
 {
     public class Startup
     {
