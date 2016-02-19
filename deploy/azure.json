@@ -2,12 +2,7 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "serverFarm": {
-            "type": "string",
-            "metadata": {
-                "description": "A server farm is also known as an App service plan."
-            }
-        },
+        "serverFarm": { "type": "string" },
         "siteName": { "type": "string" },
         "repoUrl": { "type": "string" }
     },
@@ -43,7 +38,7 @@
                     "properties": {
                         "RepoUrl": "[parameters('repoUrl')]",
                         "branch": "master",
-                        "IsManualIntegration": false
+                        "IsManualIntegration": true
                     }
                 }
             ]
