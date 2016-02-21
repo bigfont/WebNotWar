@@ -10,7 +10,7 @@ namespace WebNotWar
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("head, body");
+                await context.Response.WriteAsync("Hello from a minimal ASP.NET Core rc1 Web App.");
             });
         }
 
