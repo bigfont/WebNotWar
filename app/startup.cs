@@ -13,7 +13,5 @@ namespace WebNotWar
                 await context.Response.WriteAsync("Hello from a minimal ASP.NET Core rc1 Web App.");
             });
         }
-
-        public static void Main(string[] args) => WebApplication.Run(args);
     }
 }
