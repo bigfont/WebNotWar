@@ -4,6 +4,7 @@
   },
 
   "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
   },
 
   "frameworks": {
