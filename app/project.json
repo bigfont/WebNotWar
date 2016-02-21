@@ -8,6 +8,6 @@
   },
 
   "frameworks": {
-    "dnxCore50": { }
+    "dnx451": { }
   }
 }
