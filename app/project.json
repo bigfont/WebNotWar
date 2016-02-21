@@ -1,8 +1,4 @@
 ﻿{
-  "compilationOptions": {
-    "emitEntryPoint": true
-  },
-
   "dependencies": {
     "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final"
   },
